@@ -7,8 +7,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(119, 119, 255);
+    background-color: #212121;
 }
+
+
+
+
 
 img{
 width: 70px;
@@ -22,10 +26,10 @@ transform: translateX(-50%);
 }
 .reloj{
     position: relative;
-    background-color: lightblue;
+    background-color: #bbdefb;
     width: 350px;
     height: 350px;
-    border: 5px solid darkgrey;
+    border: 5px solid white ;
     border-radius: 50%;
 }
 
@@ -107,6 +111,6 @@ transform: translateY(-50%);
 
 .flechas .minuto{
     transform: rotate(250deg);
-    
+
 
 }
